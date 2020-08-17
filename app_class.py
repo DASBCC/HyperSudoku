@@ -9,6 +9,7 @@ class App:
         self.selected = None
         self.mousePos = None
         self.state = "Jugando"
+        self.jugandoButtons = []
 
     def run(self):
         while self.running:
@@ -47,7 +48,6 @@ class App:
             self.drawSelection(self.window, self.selected)
 
         self.drawCuad(self.window)
-        self.drawSelection(self.window, self.selected)
         pygame.display.update()
 
 ##### Funciones auxiliares #####
@@ -74,3 +74,6 @@ class App:
         if self.mousePos[0] > CuadPos[0] + CuadSize or self.mousePos[1] > CuadPos[1] + CuadSize:
             return False
         return ((self.mousePos[0]-CuadPos[0])//CellSize, (self.mousePos[1] - CuadPos[1])//CellSize)
+
+    def loadButtons(self):
+        self.jugandoButtons.append(Button(20,40, 100, 40)) 
