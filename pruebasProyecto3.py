@@ -20,7 +20,7 @@ def revisa(lista): #revisa primera fila
     temp.append(lista[0][2][0])
     temp.append(lista[0][2][1])
     temp.append(lista[0][2][2])
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -37,7 +37,7 @@ def revisa2(lista): #revisa segunda fila
     temp.append(lista[1][2][1])
     temp.append(lista[1][2][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -54,7 +54,7 @@ def revisa3(lista): #revisa tercera fila
     temp.append(lista[2][2][1])
     temp.append(lista[2][2][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -71,7 +71,7 @@ def revisa4(lista): #revisa cuarta fila
     temp.append(lista[3][2][1])
     temp.append(lista[3][2][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -88,7 +88,7 @@ def revisa5(lista): #revisa quinta fila
     temp.append(lista[4][2][1])
     temp.append(lista[4][2][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -105,7 +105,7 @@ def revisa6(lista): #revisa sexta fila
     temp.append(lista[5][2][1])
     temp.append(lista[5][2][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -122,7 +122,7 @@ def revisa7(lista): #revisa septima fila
     temp.append(lista[6][2][1])
     temp.append(lista[6][2][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -139,7 +139,7 @@ def revisa8(lista): #revisa octava fila
     temp.append(lista[7][2][1])
     temp.append(lista[7][2][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -156,7 +156,7 @@ def revisa9(lista): #revisa novena fila
     temp.append(lista[8][2][1])
     temp.append(lista[8][2][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -173,7 +173,7 @@ def revisa10(lista): #revisa primera columna
     temp.append(lista[7][0][0])
     temp.append(lista[8][0][0])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -190,7 +190,7 @@ def revisa11(lista): #revisa segunda columna
     temp.append(lista[7][0][1])
     temp.append(lista[8][0][1])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -207,7 +207,7 @@ def revisa12(lista): #revisa tercera columna
     temp.append(lista[7][0][2])
     temp.append(lista[8][0][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -224,7 +224,7 @@ def revisa13(lista): #revisa cuarta columna
     temp.append(lista[7][1][0])
     temp.append(lista[8][1][0])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -241,7 +241,7 @@ def revisa14(lista): #revisa quinta columna
     temp.append(lista[7][1][1])
     temp.append(lista[8][1][1])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -258,7 +258,7 @@ def revisa15(lista): #revisa sexta columna
     temp.append(lista[7][1][2])
     temp.append(lista[8][1][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -275,7 +275,7 @@ def revisa16(lista): #revisa septima columna
     temp.append(lista[7][2][0])
     temp.append(lista[8][2][0])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -292,7 +292,7 @@ def revisa17(lista): #revisa octava columna
     temp.append(lista[7][2][1])
     temp.append(lista[8][2][1])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -309,7 +309,7 @@ def revisa18(lista): #revisa novena columna
     temp.append(lista[7][2][2])
     temp.append(lista[8][2][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -326,7 +326,7 @@ def revisa19(lista): #revisa primer area
     temp.append(lista[2][0][1])
     temp.append(lista[2][0][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -343,7 +343,7 @@ def revisa20(lista): #revisa segundo area
     temp.append(lista[2][1][1])
     temp.append(lista[2][1][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -360,7 +360,7 @@ def revisa21(lista): #revisa tercer area
     temp.append(lista[2][2][1])
     temp.append(lista[2][2][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -377,7 +377,7 @@ def revisa22(lista): #revisa cuarta area
     temp.append(lista[5][0][1])
     temp.append(lista[5][0][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -394,7 +394,7 @@ def revisa23(lista): #revisa quinta area
     temp.append(lista[5][1][1])
     temp.append(lista[5][1][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -411,7 +411,7 @@ def revisa24(lista): #revisa sexta area
     temp.append(lista[5][2][1])
     temp.append(lista[5][2][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -428,7 +428,7 @@ def revisa25(lista): #revisa septima area
     temp.append(lista[8][0][1])
     temp.append(lista[8][0][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -445,7 +445,7 @@ def revisa26(lista): #revisa octava area
     temp.append(lista[8][1][1])
     temp.append(lista[8][1][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -462,7 +462,7 @@ def revisa27(lista): #revisa novena area
     temp.append(lista[8][2][1])
     temp.append(lista[8][2][2])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -479,7 +479,7 @@ def revisa28(lista): #revisa primer area especial
     temp.append(lista[3][0][2])
     temp.append(lista[3][1][0])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -496,7 +496,7 @@ def revisa29(lista): #revisa segunda area especial
     temp.append(lista[3][2][0])
     temp.append(lista[3][2][1])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -513,12 +513,12 @@ def revisa30(lista): #revisa tercer area especial
     temp.append(lista[7][0][2])
     temp.append(lista[7][1][0])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
 
-def revisa31(lista): #revisa cuarta area especial
+def revisa31(lista): #revisa cuarta area especialp
     temp = []
     temp.append(lista[5][1][2])
     temp.append(lista[5][2][0])
@@ -530,7 +530,7 @@ def revisa31(lista): #revisa cuarta area especial
     temp.append(lista[7][2][0])
     temp.append(lista[7][2][1])
     #print(temp)
-    if temp.count(temp[0])==1 and temp.count(temp[1])==1 and temp.count(temp[2])==1 and temp.count(temp[3])==1 and temp.count(temp[4])==1 and temp.count(temp[5])==1 and temp.count(temp[6])==1 and temp.count(temp[7])==1 and temp.count(temp[8])==1:
+    if temp.count(1)<=1 and temp.count(2)<=1 and temp.count(3)<=1 and temp.count(4)<=1 and temp.count(5)<=1 and temp.count(6)<=1 and temp.count(7)<=1 and temp.count(8)<=1 and temp.count(9)<=1:
         return True
     else:
         return False
@@ -561,14 +561,12 @@ def revisarEspeciales(lista):
 
 def revisarFinal(lista):
     if revisarAreas(lista) == True and revisarFilas(lista) == True and revisarColumnas(lista) == True and revisarEspeciales(lista) == True:
-        mensaje = "Ganaste"
-        return mensaje
+        return True
     else:
-        mensaje = "Perdiste"
-        return mensaje
+        return False
 
-def generador():
-    cantidad = random.randint(8, 20)
+cantidad = random.randint(8, 20) 
+def generador(cantidad):
     matriz =[[[0,0,0],[0,0,0],[0,0,0]],
              [[0,0,0],[0,0,0],[0,0,0]],
              [[0,0,0],[0,0,0],[0,0,0]], 
@@ -578,13 +576,17 @@ def generador():
              [[0,0,0],[0,0,0],[0,0,0]],
              [[0,0,0],[0,0,0],[0,0,0]],
              [[0,0,0],[0,0,0],[0,0,0]]]
-    return matriz
+    while cantidad > 0:
+        a = random.randint(0, 8)
+        b = random.randint(0, 2)
+        c = random.randint(0,2)
+        num = random.randint(1, 9)
+        matriz[a][b][c] = num
+        cantidad = cantidad - 1
+    if revisarFinal(matriz) == True:
+        return matriz
+    else:
+        cantidad = random.randint(8, 20)
+        return generador(cantidad)
 
-def validar(x,y,z,n):
-    for j in range (3):
-        for i in range (3):
-            if n == lista[x][j][k]:
-                return False
-            for i in range (9):
-                if num==lista[i][y][z]:
-                    return False
+print (generador(cantidad))
