@@ -6,14 +6,9 @@ class App:
         pygame.init()
         self.window = pygame.display.set_mode((ANCHO, ALTO))
         self.running = True
-        self.Cuad = testBoard1
         self.selected = None
         self.mousePos = None
         self.state = "Jugando"
-        self.jugandoButtons = []
-        self.menuButtons = []
-        self.endButtons = []
-        self.loadButtons = []
 
     def run(self):
         while self.running:
@@ -50,7 +45,9 @@ class App:
 
         if self.selected:
             self.drawSelection(self.window, self.selected)
+
         self.drawCuad(self.window)
+        self.drawSelection(self.window, self.selected)
         pygame.display.update()
 
 ##### Funciones auxiliares #####
@@ -68,12 +65,12 @@ class App:
                 pygame.draw.line(window, NEGRO, (CuadPos[0]+(x*CellSize), CuadPos[1]), (CuadPos[0] + (x*CellSize), CuadPos[1] + 450), 2)
                 pygame.draw.line(window, NEGRO, (CuadPos[0], CuadPos[1] + (x*CellSize)), (CuadPos[0] + 450, CuadPos[1] ++ (x*CellSize)))
 
+    def Boton(self,window): ###PRUEBA ESTE SE MODIFICA Y COLOCAMOS LOS BOTONES
+        pygame.draw.rect(window, CELESTE, (100,100,200,200))
+
     def mouseOnCuad(self):
         if self.mousePos[0] < CuadPos[0] or self.mousePos[1] < CuadPos[1]:
             return False
         if self.mousePos[0] > CuadPos[0] + CuadSize or self.mousePos[1] > CuadPos[1] + CuadSize:
             return False
         return ((self.mousePos[0]-CuadPos[0])//CellSize, (self.mousePos[1] - CuadPos[1])//CellSize)
-
-    def loadButtons(self):
-        self.jugandoButtons.append(Button(20,40, 100, 40))

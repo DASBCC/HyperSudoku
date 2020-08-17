@@ -9,6 +9,16 @@ resuelto = [[[5,3,4],[6,7,8],[9,1,2]], #resuelto[x]= fila
             [[2,8,7],[4,1,9],[6,3,5]],
             [[3,4,5],[2,8,6],[1,7,9]]]
 
+resuelto2 = [[[1,5,6],[2,4,3],[7,8,9]], #resuelto[x]= fila
+             [[2,3,4],[7,8,9],[1,5,6]], #resuelto[x][x]= fila, columna
+             [[7,8,9],[5,1,6],[2,4,3]], #resuelto[x][x][x]= fila, columna, espacio
+             [[9,6,2],[1,5,7],[8,3,4]],
+             [[5,4,3],[8,6,2],[9,1,7]],
+             [[8,7,1],[3,9,4],[6,2,5]],
+             [[4,2,5],[6,7,8],[3,9,1]],
+             [[6,9,8],[4,3,1],[5,7,2]],
+             [[3,1,7],[9,2,5],[4,6,8]]]
+
 def revisa(lista): #revisa primera fila
     temp = []
     temp.append(lista[0][0][0])
@@ -564,7 +574,7 @@ def revisarFinal(lista):
         return True
     else:
         return False
-
+print(revisarFinal(resuelto2))
 cantidad = random.randint(8, 20) 
 def generador(cantidad):
     matriz =[[[0,0,0],[0,0,0],[0,0,0]],
@@ -589,4 +599,4 @@ def generador(cantidad):
         cantidad = random.randint(8, 20)
         return generador(cantidad)
 
-print (generador(cantidad))
+#print (generador(cantidad))
