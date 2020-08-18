@@ -2,13 +2,14 @@ import pygame
 from Configuracion import *
 
 class button():
-    def __init__(self, color, x,y,width,height, text=''):
+    def __init__(self, color, x,y,width,height, text='', funcion):
         self.color = color
         self.x = x
         self.y = y
         self.width = width
         self.height = height
         self.text = text
+        self.funcion = funcion
 
     def draw(self,screen,outline=None):
         if outline:
@@ -28,6 +29,492 @@ class button():
             
         return False
         
+def funcion00(matriz):
+    if matriz[0][0][0] == 9:
+        matriz[0][0][0] = 1
+    else:
+        matriz[0][0][0] = matriz[0][0][0] + 1
+
+def funcion01(matriz):
+    if matriz[0][0][1] == 9:
+        matriz[0][0][1] = 1
+    else:
+        matriz[0][0][1] = matriz[0][0][1] + 1
+
+def funcion02(matriz):
+    if matriz[0][0][2] == 9:
+        matriz[0][0][2] = 1
+    else:
+        matriz[0][0][2] = matriz[0][0][2] + 1
+
+def funcion03(matriz):
+    if matriz[0][1][0] == 9:
+        matriz[0][1][0] = 1
+    else:
+        matriz[0][1][0] = matriz[0][1][0] + 1
+
+def funcion04(matriz):
+    if matriz[0][1][1] == 9:
+        matriz[0][1][1] = 1
+    else:
+        matriz[0][1][1] = matriz[0][1][1] + 1
+
+def funcion05(matriz):
+    if matriz[0][1][2] == 9:
+        matriz[0][1][2] = 1
+    else:
+        matriz[0][1][2] = matriz[0][1][2] + 1        
+
+def funcion06(matriz):
+    if matriz[0][2][0] == 9:
+        matriz[0][2][0] = 1
+    else:
+        matriz[0][2][0] = matriz[0][2][0] + 1
+
+def funcion07(matriz):
+    if matriz[0][2][1] == 9:
+        matriz[0][2][1] = 1
+    else:
+        matriz[0][2][1] = matriz[0][2][1] + 1
+
+def funcion08(matriz):
+    if matriz[0][2][2] == 9:
+        matriz[0][2][2] = 1
+    else:
+        matriz[0][2][2] = matriz[0][2][2] + 1
+
+def funcion09(matriz):
+    if matriz[1][0][0] == 9:
+        matriz[1][0][0] = 1
+    else:
+        matriz[1][0][0] = matriz[1][0][0] + 1
+
+def funcion10(matriz):
+    if matriz[1][0][1] == 9:
+        matriz[1][0][1] = 1
+    else:
+        matriz[1][0][1] = matriz[1][0][1] + 1
+
+def funcion11(matriz):
+    if matriz[1][0][2] == 9:
+        matriz[1][0][2] = 1
+    else:
+        matriz[1][0][2] = matriz[1][0][2] + 1
+
+def funcion12(matriz):
+    if matriz[1][1][0] == 9:
+        matriz[1][1][0] = 1
+    else:
+        matriz[1][1][0] = matriz[1][1][0] + 1
+
+def funcion13(matriz):
+    if matriz[1][1][1] == 9:
+        matriz[1][1][1] = 1
+    else:
+        matriz[1][1][1] = matriz[1][1][1] + 1
+
+def funcion14(matriz):
+    if matriz[1][1][2] == 9:
+        matriz[1][1][2] = 1
+    else:
+        matriz[1][1][2] = matriz[1][1][2] + 1        
+
+def funcion15(matriz):
+    if matriz[1][2][0] == 9:
+        matriz[1][2][0] = 1
+    else:
+        matriz[1][2][0] = matriz[1][2][0] + 1
+
+def funcion16(matriz):
+    if matriz[1][2][1] == 9:
+        matriz[1][2][1] = 1
+    else:
+        matriz[1][2][1] = matriz[1][2][1] + 1
+
+def funcion17(matriz):
+    if matriz[1][2][2] == 9:
+        matriz[1][2][2] = 1
+    else:
+        matriz[1][2][2] = matriz[1][2][2] + 1
+
+def funcion18(matriz):
+    if matriz[2][0][0] == 9:
+        matriz[2][0][0] = 1
+    else:
+        matriz[2][0][0] = matriz[2][0][0] + 1
+
+def funcion19(matriz):
+    if matriz[2][0][1] == 9:
+        matriz[2][0][1] = 1
+    else:
+        matriz[2][0][1] = matriz[2][0][1] + 1
+
+def funcion20(matriz):
+    if matriz[2][0][2] == 9:
+        matriz[2][0][2] = 1
+    else:
+        matriz[2][0][2] = matriz[2][0][2] + 1
+
+def funcion21(matriz):
+    if matriz[2][1][0] == 9:
+        matriz[2][1][0] = 1
+    else:
+        matriz[2][1][0] = matriz[2][1][0] + 1
+
+def funcion22(matriz):
+    if matriz[2][1][1] == 9:
+        matriz[2][1][1] = 1
+    else:
+        matriz[2][1][1] = matriz[2][1][1] + 1
+
+def funcion23(matriz):
+    if matriz[2][1][2] == 9:
+        matriz[2][1][2] = 1
+    else:
+        matriz[2][1][2] = matriz[2][1][2] + 1        
+
+def funcion24(matriz):
+    if matriz[2][2][0] == 9:
+        matriz[2][2][0] = 1
+    else:
+        matriz[2][2][0] = matriz[2][2][0] + 1
+
+def funcion25(matriz):
+    if matriz[2][2][1] == 9:
+        matriz[2][2][1] = 1
+    else:
+        matriz[2][2][1] = matriz[2][2][1] + 1
+
+def funcion26(matriz):
+    if matriz[2][2][2] == 9:
+        matriz[2][2][2] = 1
+    else:
+        matriz[2][2][2] = matriz[2][2][2] + 1
+
+def funcion27(matriz):
+    if matriz[3][0][0] == 9:
+        matriz[3][0][0] = 1
+    else:
+        matriz[3][0][0] = matriz[3][0][0] + 1
+
+def funcion28(matriz):
+    if matriz[3][0][1] == 9:
+        matriz[3][0][1] = 1
+    else:
+        matriz[3][0][1] = matriz[3][0][1] + 1
+
+def funcion29(matriz):
+    if matriz[3][0][2] == 9:
+        matriz[3][0][2] = 1
+    else:
+        matriz[3][0][2] = matriz[3][0][2] + 1
+
+def funcion30(matriz):
+    if matriz[3][1][0] == 9:
+        matriz[3][1][0] = 1
+    else:
+        matriz[3][1][0] = matriz[3][1][0] + 1
+
+def funcion31(matriz):
+    if matriz[3][1][1] == 9:
+        matriz[3][1][1] = 1
+    else:
+        matriz[3][1][1] = matriz[3][1][1] + 1
+
+def funcion32(matriz):
+    if matriz[3][1][2] == 9:
+        matriz[3][1][2] = 1
+    else:
+        matriz[3][1][2] = matriz[3][1][2] + 1        
+
+def funcion33(matriz):
+    if matriz[3][2][0] == 9:
+        matriz[3][2][0] = 1
+    else:
+        matriz[3][2][0] = matriz[3][2][0] + 1
+
+def funcion34(matriz):
+    if matriz[3][2][1] == 9:
+        matriz[3][2][1] = 1
+    else:
+        matriz[3][2][1] = matriz[3][2][1] + 1
+
+def funcion35(matriz):
+    if matriz[3][2][2] == 9:
+        matriz[3][2][2] = 1
+    else:
+        matriz[3][2][2] = matriz[3][2][2] + 1
+
+def funcion36(matriz):
+    if matriz[4][0][0] == 9:
+        matriz[4][0][0] = 1
+    else:
+        matriz[4][0][0] = matriz[4][0][0] + 1
+
+def funcion37(matriz):
+    if matriz[4][0][1] == 9:
+        matriz[4][0][1] = 1
+    else:
+        matriz[4][0][1] = matriz[4][0][1] + 1
+
+def funcion38(matriz):
+    if matriz[4][0][2] == 9:
+        matriz[4][0][2] = 1
+    else:
+        matriz[4][0][2] = matriz[4][0][2] + 1
+
+def funcion39(matriz):
+    if matriz[4][1][0] == 9:
+        matriz[4][1][0] = 1
+    else:
+        matriz[4][1][0] = matriz[4][1][0] + 1
+
+def funcion40(matriz):
+    if matriz[4][1][1] == 9:
+        matriz[4][1][1] = 1
+    else:
+        matriz[4][1][1] = matriz[4][1][1] + 1
+
+def funcion41(matriz):
+    if matriz[4][1][2] == 9:
+        matriz[4][1][2] = 1
+    else:
+        matriz[4][1][2] = matriz[4][1][2] + 1        
+
+def funcion42(matriz):
+    if matriz[4][2][0] == 9:
+        matriz[4][2][0] = 1
+    else:
+        matriz[4][2][0] = matriz[4][2][0] + 1
+
+def funcion43(matriz):
+    if matriz[4][2][1] == 9:
+        matriz[4][2][1] = 1
+    else:
+        matriz[4][2][1] = matriz[4][2][1] + 1
+
+def funcion44(matriz):
+    if matriz[4][2][2] == 9:
+        matriz[4][2][2] = 1
+    else:
+        matriz[4][2][2] = matriz[4][2][2] + 1
+
+def funcion45(matriz):
+    if matriz[5][0][0] == 9:
+        matriz[5][0][0] = 1
+    else:
+        matriz[5][0][0] = matriz[5][0][0] + 1
+
+def funcion46(matriz):
+    if matriz[5][0][1] == 9:
+        matriz[5][0][1] = 1
+    else:
+        matriz[5][0][1] = matriz[5][0][1] + 1
+
+def funcion47(matriz):
+    if matriz[5][0][2] == 9:
+        matriz[5][0][2] = 1
+    else:
+        matriz[5][0][2] = matriz[5][0][2] + 1
+
+def funcion48(matriz):
+    if matriz[5][1][0] == 9:
+        matriz[5][1][0] = 1
+    else:
+        matriz[5][1][0] = matriz[5][1][0] + 1
+
+def funcion49(matriz):
+    if matriz[5][1][1] == 9:
+        matriz[5][1][1] = 1
+    else:
+        matriz[5][1][1] = matriz[5][1][1] + 1
+
+def funcion50(matriz):
+    if matriz[5][1][2] == 9:
+        matriz[5][1][2] = 1
+    else:
+        matriz[5][1][2] = matriz[5][1][2] + 1        
+
+def funcion51(matriz):
+    if matriz[5][2][0] == 9:
+        matriz[5][2][0] = 1
+    else:
+        matriz[5][2][0] = matriz[5][2][0] + 1
+
+def funcion52(matriz):
+    if matriz[5][2][1] == 9:
+        matriz[5][2][1] = 1
+    else:
+        matriz[5][2][1] = matriz[5][2][1] + 1
+
+def funcion53(matriz):
+    if matriz[5][2][2] == 9:
+        matriz[5][2][2] = 1
+    else:
+        matriz[5][2][2] = matriz[5][2][2] + 1
+
+def funcion54(matriz):
+    if matriz[6][0][0] == 9:
+        matriz[6][0][0] = 1
+    else:
+        matriz[6][0][0] = matriz[6][0][0] + 1
+
+def funcion55(matriz):
+    if matriz[6][0][1] == 9:
+        matriz[6][0][1] = 1
+    else:
+        matriz[6][0][1] = matriz[6][0][1] + 1
+
+def funcion56(matriz):
+    if matriz[6][0][2] == 9:
+        matriz[6][0][2] = 1
+    else:
+        matriz[6][0][2] = matriz[6][0][2] + 1
+
+def funcion57(matriz):
+    if matriz[6][1][0] == 9:
+        matriz[6][1][0] = 1
+    else:
+        matriz[6][1][0] = matriz[6][1][0] + 1
+
+def funcion58(matriz):
+    if matriz[6][1][1] == 9:
+        matriz[6][1][1] = 1
+    else:
+        matriz[6][1][1] = matriz[6][1][1] + 1
+
+def funcion59(matriz):
+    if matriz[6][1][2] == 9:
+        matriz[6][1][2] = 1
+    else:
+        matriz[6][1][2] = matriz[6][1][2] + 1        
+
+def funcion60(matriz):
+    if matriz[6][2][0] == 9:
+        matriz[6][2][0] = 1
+    else:
+        matriz[6][2][0] = matriz[6][2][0] + 1
+
+def funcion61(matriz):
+    if matriz[6][2][1] == 9:
+        matriz[6][2][1] = 1
+    else:
+        matriz[6][2][1] = matriz[6][2][1] + 1
+
+def funcion62(matriz):
+    if matriz[6][2][2] == 9:
+        matriz[6][2][2] = 1
+    else:
+        matriz[6][2][2] = matriz[6][2][2] + 1
+
+def funcion63(matriz):
+    if matriz[7][0][0] == 9:
+        matriz[7][0][0] = 1
+    else:
+        matriz[7][0][0] = matriz[7][0][0] + 1
+
+def funcion64(matriz):
+    if matriz[7][0][1] == 9:
+        matriz[7][0][1] = 1
+    else:
+        matriz[7][0][1] = matriz[7][0][1] + 1
+
+def funcion65(matriz):
+    if matriz[7][0][2] == 9:
+        matriz[7][0][2] = 1
+    else:
+        matriz[7][0][2] = matriz[7][0][2] + 1
+
+def funcion66(matriz):
+    if matriz[7][1][0] == 9:
+        matriz[7][1][0] = 1
+    else:
+        matriz[7][1][0] = matriz[7][1][0] + 1
+
+def funcion67(matriz):
+    if matriz[7][1][1] == 9:
+        matriz[7][1][1] = 1
+    else:
+        matriz[7][1][1] = matriz[7][1][1] + 1
+
+def funcion68(matriz):
+    if matriz[7][1][2] == 9:
+        matriz[7][1][2] = 1
+    else:
+        matriz[7][1][2] = matriz[7][1][2] + 1        
+
+def funcion69(matriz):
+    if matriz[7][2][0] == 9:
+        matriz[7][2][0] = 1
+    else:
+        matriz[7][2][0] = matriz[7][2][0] + 1
+
+def funcion70(matriz):
+    if matriz[7][2][1] == 9:
+        matriz[7][2][1] = 1
+    else:
+        matriz[7][2][1] = matriz[7][2][1] + 1
+
+def funcion71(matriz):
+    if matriz[7][2][2] == 9:
+        matriz[7][2][2] = 1
+    else:
+        matriz[7][2][2] = matriz[7][2][2] + 1
+
+def funcion72(matriz):
+    if matriz[8][0][0] == 9:
+        matriz[8][0][0] = 1
+    else:
+        matriz[8][0][0] = matriz[8][0][0] + 1
+
+def funcion73(matriz):
+    if matriz[8][0][1] == 9:
+        matriz[8][0][1] = 1
+    else:
+        matriz[8][0][1] = matriz[8][0][1] + 1
+
+def funcion74(matriz):
+    if matriz[8][0][2] == 9:
+        matriz[8][0][2] = 1
+    else:
+        matriz[8][0][2] = matriz[8][0][2] + 1
+
+def funcion75(matriz):
+    if matriz[8][1][0] == 9:
+        matriz[8][1][0] = 1
+    else:
+        matriz[8][1][0] = matriz[8][1][0] + 1
+
+def funcion76(matriz):
+    if matriz[8][1][1] == 9:
+        matriz[8][1][1] = 1
+    else:
+        matriz[8][1][1] = matriz[8][1][1] + 1
+
+def funcion77(matriz):
+    if matriz[8][1][2] == 9:
+        matriz[8][1][2] = 1
+    else:
+        matriz[8][1][2] = matriz[8][1][2] + 1        
+
+def funcion78(matriz):
+    if matriz[8][2][0] == 9:
+        matriz[8][2][0] = 1
+    else:
+        matriz[8][2][0] = matriz[8][2][0] + 1
+
+def funcion79(matriz):
+    if matriz[8][2][1] == 9:
+        matriz[8][2][1] = 1
+    else:
+        matriz[8][2][1] = matriz[8][2][1] + 1
+
+def funcion80(matriz):
+    if matriz[8][2][2] == 9:
+        matriz[8][2][2] = 1
+    else:
+        matriz[8][2][2] = matriz[8][2][2] + 1
+
 Cuad00 = button(BLANCO, CuadPos[0]+2,CuadPos[1]+2,CellSize-2,CellSize-2, '') #(0,0)
 Cuad01 = button(BLANCO, CuadPos[0]+51,CuadPos[1]+2,CellSize-1,CellSize-2,'') #(0,1)
 Cuad02 = button(BLANCO, CuadPos[0]+101,CuadPos[1]+2,CellSize-1,CellSize-2,'') #(0,2)
