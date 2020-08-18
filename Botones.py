@@ -2,14 +2,13 @@ import pygame
 from Configuracion import *
 
 class button():
-    def __init__(self, color, x,y,width,height, text='', funcion):
+    def __init__(self, color, x,y,width,height, text=''):
         self.color = color
         self.x = x
         self.y = y
         self.width = width
         self.height = height
         self.text = text
-        self.funcion = funcion
 
     def draw(self,screen,outline=None):
         if outline:
@@ -514,7 +513,7 @@ def funcion80(matriz):
         matriz[8][2][2] = 1
     else:
         matriz[8][2][2] = matriz[8][2][2] + 1
-
+        
 Cuad00 = button(BLANCO, CuadPos[0]+2,CuadPos[1]+2,CellSize-2,CellSize-2, '') #(0,0)
 Cuad01 = button(BLANCO, CuadPos[0]+51,CuadPos[1]+2,CellSize-1,CellSize-2,'') #(0,1)
 Cuad02 = button(BLANCO, CuadPos[0]+101,CuadPos[1]+2,CellSize-1,CellSize-2,'') #(0,2)
